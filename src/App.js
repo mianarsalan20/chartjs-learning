@@ -5,6 +5,7 @@ import LineChart from './components/LineChart';
 import PieChart from './components/PieChart';
 import { UserData } from './Data'
 function App() {
+  // eslint-disable-next-line
   const [userData, setUserData] = useState({
     labels: UserData.map((item) => item.year),
     datasets: [
